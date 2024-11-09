@@ -1,0 +1,30 @@
+﻿<Page x:Class="AppWithPages1.TextAndStuffPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AppWithPages1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="1200"
+      Title="TextAndStuffPage">
+
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="600*"/>
+			<ColumnDefinition Width="600*"/>
+		</Grid.ColumnDefinitions>
+		<StackPanel >
+			<TextBlock Background="LightCoral" 
+            Margin="3,3">
+                <TextBlock Background="Aquamarine">3 XAML TextBlocks</TextBlock>
+                <TextBlock FontSize="20"> WRAPPED   in a  TextBlock  </TextBlock>
+                <TextBlock Margin="0,10">?IsNotAnError; but an inline thing?</TextBlock>
+            </TextBlock>
+
+
+
+
+
+		</StackPanel>
+	</Grid>
+</Page>
